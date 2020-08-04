@@ -1,0 +1,7 @@
+name: HAFK
+main: com.github.Herdeny.HAFK
+version: 0.0.1-SNAPSHOT
+commands:
+  gj start:
+    description: 开始挂机
+    usage: /gj start
