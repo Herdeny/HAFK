@@ -1,7 +1,15 @@
 name: HAFK
 main: com.github.Herdeny.HAFK
 version: 0.0.1-SNAPSHOT
+author: Herdeny
 commands:
   gj start:
     description: 开始挂机
     usage: /gj start
+    permission: "gj.basic"
+    permission-message: "&r[&b挂机系统&r]&r抱歉，您没有权限这样做.需要&bgj.basic"
+  gj stop:
+    description: 停止挂机
+    usage: /gj stop
+    permission: "gj.basic"
+    permission-message: "&r[&b挂机系统&r]&r抱歉，您没有权限这样做.需要&bgj.basic"
